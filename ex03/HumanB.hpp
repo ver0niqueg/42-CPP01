@@ -6,7 +6,7 @@
 /*   By: vgalmich <vgalmich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 18:09:33 by vgalmich          #+#    #+#             */
-/*   Updated: 2025/07/28 18:12:21 by vgalmich         ###   ########.fr       */
+/*   Updated: 2025/07/29 18:51:08 by vgalmich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,5 +16,20 @@
 #include "Weapon.hpp"
 #include <iostream>
 #include <string>
+
+// par pointeur
+
+class HumanB
+{
+    private:
+        std::string _name;
+        Weapon* _weaponPTR;
+    public:
+        HumanB();
+        HumanB(const std::string &name);
+        ~HumanB();
+        void setWeapon(Weapon &weapon);
+        void attack() const;
+};
 
 #endif

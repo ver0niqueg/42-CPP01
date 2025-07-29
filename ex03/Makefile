@@ -16,8 +16,9 @@ YELLOW		=	\033[33m
 BLUE		=	\033[34m
 
 # Fichiers sources et objets
-SRCS = Zombie.cpp \
-		zombieHorde.cpp \
+SRCS = Weapon.cpp \
+		HumanA.cpp \
+		HumanB.cpp \
 		main.cpp \
 
 OBJS = $(SRCS:.cpp=.o)
