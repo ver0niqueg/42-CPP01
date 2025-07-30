@@ -1,5 +1,5 @@
 # Nom du programme
-NAME = Moarbrainz
+NAME = ZombieHorde
 
 # Compilateur et options
 CC = c++
