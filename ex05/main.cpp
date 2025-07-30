@@ -6,7 +6,22 @@
 /*   By: vgalmich <vgalmich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/29 19:59:56 by vgalmich          #+#    #+#             */
-/*   Updated: 2025/07/29 19:59:56 by vgalmich         ###   ########.fr       */
+/*   Updated: 2025/07/30 14:54:19 by vgalmich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+# include "Harl.hpp"
+
+int main(int argc, char** argv)
+{
+    Harl harl; // instance
+    if (argc != 2)
+    {
+        std::cerr << "Error: wrong number of arguments" << std::endl;
+        return (1);
+    }
+    harl.complain(argv[1]);
+    return (0);
+}
+
+// on peut pas avoir des references sur les fonctions (seulement sur les variables)
