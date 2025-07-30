@@ -16,9 +16,9 @@ int	main()
 {
 	Zombie*	z1 = newZombie("Rick");
 
-	randomChump("Daryl"); // → zombie créé sur la pile (stack), annonce immédiate, destruction automatique.
+	randomChump("Daryl");
 
-	z1->announce(); // → on fait annoncer le zombie créé dynamiquement.
-	delete z1; // → on libère la mémoire
+	z1->announce();
+	delete z1;
 	return (0);
 }
