@@ -12,8 +12,8 @@
 
 #include "Zombie.hpp"
 
-void randomChump(std::string name)
+void	randomChump(std::string name)
 {
-    Zombie z(name); // crée un zombie sur la stack / la pile
-    z.announce(); // le zombie s'annonce
+	Zombie z(name);
+	z.announce();
 }

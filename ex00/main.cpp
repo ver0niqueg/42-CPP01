@@ -12,13 +12,13 @@
 
 #include "Zombie.hpp"
 
-int main()
+int	main()
 {
-    Zombie* z1 = newZombie("Rick"); // → zombie créé sur le tas (heap), tu récupères un pointeur.
+	Zombie*	z1 = newZombie("Rick");
 
-    randomChump("Daryl"); // → zombie créé sur la pile (stack), annonce immédiate, destruction automatique.
+	randomChump("Daryl"); // → zombie créé sur la pile (stack), annonce immédiate, destruction automatique.
 
-    z1->announce(); // → on fait annoncer le zombie créé dynamiquement.
-    delete z1; // → on libère la mémoire
-    return (0);
+	z1->announce(); // → on fait annoncer le zombie créé dynamiquement.
+	delete z1; // → on libère la mémoire
+	return (0);
 }

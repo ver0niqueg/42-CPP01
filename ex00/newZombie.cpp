@@ -12,8 +12,8 @@
 
 #include "Zombie.hpp"
 
-Zombie* newZombie(std::string name)
+Zombie*	newZombie(std::string name)
 {
-    Zombie* z = new Zombie(name); // alloue un zombie dynamiquement (sur la heap / le tas)
-    return z; // retourne le pointeur vers le nouveau zombie
+	Zombie* z = new Zombie(name);
+	return z;
 }

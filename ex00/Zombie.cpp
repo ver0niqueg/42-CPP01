@@ -18,10 +18,10 @@ Zombie::Zombie(std::string n) : _name(n)
 
 Zombie::~Zombie()
 {
-    std::cout << this->_name << " is destroyed." << std::endl;
+	std::cout << _name << " is destroyed." << std::endl;
 }
 
-void Zombie::announce () const
+void Zombie::announce() const
 {
-    std::cout << _name << ": BraiiiiiiinnnzzzZ..." << std::endl;
+	std::cout << _name << ": BraiiiiiiinnnzzzZ..." << std::endl;
 }
