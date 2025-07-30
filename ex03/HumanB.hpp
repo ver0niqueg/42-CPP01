@@ -6,7 +6,7 @@
 /*   By: vgalmich <vgalmich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 18:09:33 by vgalmich          #+#    #+#             */
-/*   Updated: 2025/07/29 18:51:08 by vgalmich         ###   ########.fr       */
+/*   Updated: 2025/07/31 01:24:14 by vgalmich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@
 #include "Weapon.hpp"
 #include <iostream>
 #include <string>
-
-// par pointeur
 
 class HumanB
 {
