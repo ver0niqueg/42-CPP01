@@ -6,7 +6,7 @@
 /*   By: vgalmich <vgalmich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/29 19:59:56 by vgalmich          #+#    #+#             */
-/*   Updated: 2025/07/31 02:15:30 by vgalmich         ###   ########.fr       */
+/*   Updated: 2025/07/31 14:08:21 by vgalmich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int main(int argc, char** argv)
 {
-	Harl harl; // instance
+	Harl harl;
 	if (argc != 2)
 	{
 		std::cerr << "Error: wrong number of arguments" << std::endl;
