@@ -6,7 +6,7 @@
 /*   By: vgalmich <vgalmich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/29 19:59:50 by vgalmich          #+#    #+#             */
-/*   Updated: 2025/07/31 02:14:32 by vgalmich         ###   ########.fr       */
+/*   Updated: 2025/07/31 15:53:57 by vgalmich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ void Harl::warning(void)
 
 void Harl::error(void)
 {
-	std::cout << "his is unacceptable! I want to speak to the manager now." << std::endl;
+	std::cout << "This is unacceptable! I want to speak to the manager now." << std::endl;
 }
 
 void Harl::complain(std::string level)
